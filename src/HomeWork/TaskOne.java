@@ -18,11 +18,12 @@ public class TaskOne {
         int[] myArray = new int[arraySize];
 
         for (int i = 0, j = 1; i < myArray.length; i++, j++){
-            System.out.println("Please note you still need to enter " + (myArray.length - j ) + " - array element(s).");
             System.out.println("Enter array element - " + i );
             int arrayElementValueFromConsole = sc.nextInt();
             //sc.nextInt();
             myArray[i] = arrayElementValueFromConsole;
+            System.out.println("Please note you still need to enter " + (myArray.length - j ) + " - array element(s).");
+
 
         }
         System.out.println("Our array now looks like: " + Arrays.toString(myArray));
