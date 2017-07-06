@@ -12,7 +12,7 @@ public class TaskThree {
         String arrayElementValueFromConsole = sc.nextLine();
 
         //int[] myArray = new int[]{};
-        int[] cats = {arrayElementValueFromConsole};
+        //int[] cats = {arrayElementValueFromConsole};
 
 
         //2. на вход через консоль принимает массив чисел
@@ -29,7 +29,7 @@ public class TaskThree {
 //
 //        }
 
-        System.out.println("Our array now looks like: " + Arrays.toString(cats));
+        //System.out.println("Our array now looks like: " + Arrays.toString(cats));
     }
 }
 /*
