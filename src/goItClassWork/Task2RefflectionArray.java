@@ -10,21 +10,16 @@ public class Task2RefflectionArray {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        //1. на вход через консоль принимает размер массива
         System.out.println("Please enter the array size");
         int arraySize = sc.nextInt();
 
-        //2. на вход через консоль принимает массив чисел
         int[] myArray = new int[arraySize];
 
         for (int i = 0, j = 1; i < myArray.length; i++, j++){
             System.out.println("Enter array element - " + i );
             int arrayElementValueFromConsole = sc.nextInt();
-            //sc.nextInt();
             myArray[i] = arrayElementValueFromConsole;
             System.out.println("Please note you still need to enter " + (myArray.length - j ) + " - array element(s).");
-
-
         }
 
         System.out.println("Our array now looks like: " + Arrays.toString(myArray));
